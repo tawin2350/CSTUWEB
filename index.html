@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>พี่รหัสน้องรหัส - Hacker Theme</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas class="matrix-bg" id="matrixCanvas"></canvas>
+    <div class="container">
+        <h1>พี่รหัสน้องรหัส</h1>
+        <div id="page-code">
+            <form id="codeForm">
+                <label>รหัสน้อง (5 ตัว):</label>
+                <div class="terminal-input" id="studentCodeGroup">
+                    <span>&gt;_</span>
+                    <input type="text" maxlength="1" class="code-input" id="code1" autocomplete="off" required>
+                    <input type="text" maxlength="1" class="code-input" id="code2" autocomplete="off" required>
+                    <input type="text" maxlength="1" class="code-input" id="code3" autocomplete="off" required>
+                    <input type="text" maxlength="1" class="code-input" id="code4" autocomplete="off" required>
+                    <input type="text" maxlength="1" class="code-input" id="code5" autocomplete="off" required>
+                </div>
+                <button type="submit">ตรวจสอบ</button>
+            </form>
+            <div id="result"></div>
+            <div id="typewriter" style="margin-top:20px;font-size:1.1em;"></div>
+        </div>
+        <div id="page-hint" style="display:none;">
+            <h2>คำใบ้</h2>
+            <ol id="hintList"></ol>
+            <form id="answerForm" style="margin-top:20px;">
+                <label for="answer">เฉลย IG:</label>
+                <input type="text" id="answer" name="answer" required>
+                <button type="submit">ตรวจคำตอบ</button>
+            </form>
+            <div id="typewriter-hint" style="margin-top:20px;font-size:1.1em;"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

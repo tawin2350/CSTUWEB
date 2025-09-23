@@ -1,0 +1,26 @@
+{
+    "CSA10": {
+        "studentId": "650001",
+        "nickname": "แมว",
+        "hints": [
+            { "hint": "ชอบกินชานม", "openDate": "2025-09-23" },
+            { "hint": "เรียนคณะวิทย์", "openDate": "2026-09-24" },
+            { "hint": "สูงประมาณ 170", "openDate": "2026-09-25" },
+            { "hint": "ชอบเล่นเกม", "openDate": "2026-09-26" },
+            { "hint": "IG มีคำว่า cat", "openDate": "2026-09-27" }
+        ],
+        "ig": { "value": "catboy_ig", "openDate": "2026-09-28" }
+    },
+    "CSB10": {
+        "studentId": "650002",
+        "nickname": "ใบหม่อน",
+        "hints": [
+            { "hint": "ผมสั้น", "openDate": "2025-09-23" },
+            { "hint": "ชอบวาดรูป", "openDate": "2026-09-24" },
+            { "hint": "เรียนสายคอม", "openDate": "2026-09-25" },
+            { "hint": "ชอบสีเขียว", "openDate": "2026-09-26" },
+            { "hint": "IG มีเลข 22", "openDate": "2026-09-27" }
+        ],
+        "ig": { "value": "green22girl", "openDate": "2026-09-28" }
+    }
+}
