@@ -35,7 +35,6 @@ if ($action === 'getHints') {
                 ];
             }
         }
-        // เฉลย IG
         $ig = null;
         $igDaysLeft = null;
         if (isset($data[$code]['ig']['openDate']) && isset($data[$code]['ig']['value'])) {

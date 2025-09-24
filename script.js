@@ -61,7 +61,7 @@ document.getElementById('codeForm').addEventListener('submit', function(e) {
         showTypewriter('กรุณากรอกรหัสน้องให้ครบ 5 ตัว');
         return;
     }
-    fetch('check.php', {
+    fetch('check.js', {
         method: 'POST',
         headers: {'Content-Type': 'application/json'},
         body: JSON.stringify({ action: 'getHints', code })
@@ -138,7 +138,7 @@ function showTypewriterHint(text) {
 document.getElementById('answerForm').addEventListener('submit', function(e) {
     e.preventDefault();
     const answer = document.getElementById('answer').value.trim();
-    fetch('check.php', {
+    fetch('check.js', {
         method: 'POST',
         headers: {'Content-Type': 'application/json'},
         body: JSON.stringify({ action: 'checkIG', code: currentCode, answer })
